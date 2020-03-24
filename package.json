@@ -4,7 +4,7 @@
     "displayName": "lit-xml-owl",
     "description": "Syntax highlighting and IntelliSense for xml inside of JavaScript and TypeScript tagged template strings",
     "version": "1.11.1",
-    "publisher": "bierner",
+    "publisher": "x2nie",
     "icon": "docs/logo.png",
     "license": "MIT",
     "galleryBanner": {
@@ -18,10 +18,17 @@
         "url": "https://github.com/mjbvz/vscode-lit-xml-owl/issues"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages", 
+        "Formatters", 
+        "Other"
     ],
     "keywords": [
         "lit-xml-owl",
+        "odoo",
+        "owl",
+        "owl tag",
+        "odoo web library",
+        "xml",
         "javascript",
         "typescript",
         "html",
@@ -37,32 +44,7 @@
         "onLanguage:typescriptreact"
     ],
     "main": "./out/index.js",
-    "contributes": {
-        "configuration": [
-            {
-                "id": "lit-xml-owl",
-                "title": "Lit HTML",
-                "properties": {
-                    "lit-xml-owl.tags": {
-                        "type": "array",
-                        "description": "List of template tags to enable html intellisense in.",
-                        "items": {
-                            "type": "string",
-                            "description": "Tag name."
-                        },
-                        "default": [
-                            "html",
-                            "raw"
-                        ]
-                    },
-                    "lit-xml-owl.format.enabled": {
-                        "type": "boolean",
-                        "description": "Enable/disable formatting of html template strings.",
-                        "default": true
-                    }
-                }
-            }
-        ],
+    "contributes": {        
         "grammars": [
             {
                 "injectTo": [
