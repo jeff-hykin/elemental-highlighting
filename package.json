@@ -114,6 +114,7 @@
         "vscode:prepublish": "tsc -p ./",
         "compile": "tsc -p ./",
         "watch": "tsc -w -p ./",
+        "VSIX": "vsce package",
         "test": "node ./out/test"
     },
     "devDependencies": {
