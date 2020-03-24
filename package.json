@@ -1,8 +1,8 @@
 {
-    "name": "lit-html",
+    "name": "lit-xml-owl",
     "private": true,
     "displayName": "lit-html",
-    "description": "Syntax highlighting and IntelliSense for html inside of JavaScript and TypeScript tagged template strings",
+    "description": "Syntax highlighting and IntelliSense for xml inside of JavaScript and TypeScript tagged template strings",
     "version": "1.11.1",
     "publisher": "bierner",
     "icon": "docs/logo.png",
@@ -38,31 +38,6 @@
     ],
     "main": "./out/index.js",
     "contributes": {
-        "configuration": [
-            {
-                "id": "lit-html",
-                "title": "Lit HTML",
-                "properties": {
-                    "lit-html.tags": {
-                        "type": "array",
-                        "description": "List of template tags to enable html intellisense in.",
-                        "items": {
-                            "type": "string",
-                            "description": "Tag name."
-                        },
-                        "default": [
-                            "html",
-                            "raw"
-                        ]
-                    },
-                    "lit-html.format.enabled": {
-                        "type": "boolean",
-                        "description": "Enable/disable formatting of html template strings.",
-                        "default": true
-                    }
-                }
-            }
-        ],
         "grammars": [
             {
                 "injectTo": [
@@ -126,22 +101,6 @@
                     "meta.embedded.block.svg": "xml"
                 }
             }
-        ],
-        "typescriptServerPlugins": [
-            {
-                "name": "typescript-lit-html-plugin",
-                "enableForWorkspaceTypeScriptVersions": true
-            }
-        ],
-        "jsonValidation": [
-            {
-                "fileMatch": "jsconfig*.json",
-                "url": "./schemas/tsconfig.schema.json"
-            },
-            {
-                "fileMatch": "tsconfig*.json",
-                "url": "./schemas/tsconfig.schema.json"
-            }
         ]
     },
     "scripts": {
@@ -149,9 +108,6 @@
         "compile": "tsc -p ./",
         "watch": "tsc -w -p ./",
         "test": "node ./out/test"
-    },
-    "dependencies": {
-        "typescript-lit-html-plugin": "0.9.0"
     },
     "devDependencies": {
         "@types/node": "^12.7.5",
