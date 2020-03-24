@@ -13,7 +13,7 @@
                             "properties": {
                                 "name": {
                                     "enum": [
-                                        "typescript-lit-html-plugin"
+                                        "typescript-lit-xml-owl-plugin"
                                     ]
                                 }
                             },

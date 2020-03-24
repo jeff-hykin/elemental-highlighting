@@ -1,7 +1,7 @@
 {
     "name": "lit-xml-owl",
     "private": true,
-    "displayName": "lit-html",
+    "displayName": "lit-xml-owl",
     "description": "Syntax highlighting and IntelliSense for xml inside of JavaScript and TypeScript tagged template strings",
     "version": "1.11.1",
     "publisher": "bierner",
@@ -12,16 +12,16 @@
         "theme": "light"
     },
     "repository": {
-        "url": "https://github.com/mjbvz/vscode-lit-html.git"
+        "url": "https://github.com/mjbvz/vscode-lit-xml-owl.git"
     },
     "bugs": {
-        "url": "https://github.com/mjbvz/vscode-lit-html/issues"
+        "url": "https://github.com/mjbvz/vscode-lit-xml-owl/issues"
     },
     "categories": [
         "Programming Languages"
     ],
     "keywords": [
-        "lit-html",
+        "lit-xml-owl",
         "javascript",
         "typescript",
         "html",
@@ -38,6 +38,31 @@
     ],
     "main": "./out/index.js",
     "contributes": {
+        "configuration": [
+            {
+                "id": "lit-xml-owl",
+                "title": "Lit HTML",
+                "properties": {
+                    "lit-xml-owl.tags": {
+                        "type": "array",
+                        "description": "List of template tags to enable html intellisense in.",
+                        "items": {
+                            "type": "string",
+                            "description": "Tag name."
+                        },
+                        "default": [
+                            "html",
+                            "raw"
+                        ]
+                    },
+                    "lit-xml-owl.format.enabled": {
+                        "type": "boolean",
+                        "description": "Enable/disable formatting of html template strings.",
+                        "default": true
+                    }
+                }
+            }
+        ],
         "grammars": [
             {
                 "injectTo": [
@@ -48,8 +73,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html",
-                "path": "./syntaxes/lit-html.json",
+                "scopeName": "inline.lit-xml-owl",
+                "path": "./syntaxes/lit-xml-owl.json",
                 "embeddedLanguages": {
                     "meta.embedded.block.html": "html",
                     "meta.embedded.block.css": "css",
@@ -65,8 +90,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html.string.injection",
-                "path": "./syntaxes/lit-html-string-injection.json",
+                "scopeName": "inline.lit-xml-owl.string.injection",
+                "path": "./syntaxes/lit-xml-owl-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
@@ -80,8 +105,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html.style.injection",
-                "path": "./syntaxes/lit-html-style-injection.json",
+                "scopeName": "inline.lit-xml-owl.style.injection",
+                "path": "./syntaxes/lit-xml-owl-style-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
@@ -95,8 +120,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html-svg",
-                "path": "./syntaxes/lit-html-svg.json",
+                "scopeName": "inline.lit-xml-owl-svg",
+                "path": "./syntaxes/lit-xml-owl-svg.json",
                 "embeddedLanguages": {
                     "meta.embedded.block.svg": "xml"
                 }

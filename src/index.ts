@@ -1,8 +1,8 @@
 import * as vscode from 'vscode';
 
 const typeScriptExtensionId = 'vscode.typescript-language-features';
-const pluginId = 'typescript-lit-html-plugin';
-const configurationSection = 'lit-html';
+const pluginId = 'typescript-lit-xml-owl-plugin';
+const configurationSection = 'lit-xml-owl';
 
 interface SynchronizedConfiguration {
     tags?: ReadonlyArray<string>;
@@ -12,6 +12,7 @@ interface SynchronizedConfiguration {
 }
 
 export async function activate(context: vscode.ExtensionContext) {
+    console.log('congratulation, your plugin "vscode-lite-xml-OWL" is activating....')
     const extension = vscode.extensions.getExtension(typeScriptExtensionId);
     if (!extension) {
         return;
@@ -37,6 +38,7 @@ export async function activate(context: vscode.ExtensionContext) {
 
 function synchronizeConfiguration(api: any) {
     api.configurePlugin(pluginId, getConfiguration());
+    console.log('congratulation, your plugin "vscode-lite-xml-OWL" is activated.')
 }
 
 function getConfiguration(): SynchronizedConfiguration {

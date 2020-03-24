@@ -9,6 +9,8 @@ such as this: https://regex101.com/
 ### Test String:
 ```js
 const APP_TEMPLATE = xml/*html*/` <div/>`
+const APP_TEMPLATE = xml /*html*/ ` <div/>`
+const APP_TEMPLATE = xml /* html */ ` <div/>`
 const APP_TEMPLATE = xml/* html */` <div/>`
 const APP_TEMPLATE = xml/*html pdf */`<div/>`
 const APP_TEMPLATE = xml/* html, pdf */
@@ -16,10 +18,13 @@ const APP_TEMPLATE = xml/* html, pdf */
     
 
 
-const PLAIN_TEMPLATE = `<div class="task"/>`
 const XML_TEMPLATE = xml` <div class="task"/>` const HTML_TEMPLATE = html ` <span/>`
 
-const ANY_TEMPLATE = FOO` <div class="task" />`
 const HTML_TEMPLATE = owl.xml` <span/>`
 const HTML_TEMPLATE = owl.lit.xml` <span/>`
+
+// MUST BE FAIL
+const ANY_TEMPLATE = FOO` <div class="task" />`
+const PLAIN_TEMPLATE = `<div class="task"/>`
+
 ```
