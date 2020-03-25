@@ -26,8 +26,12 @@
         "lit-xml-owl",
         "odoo",
         "owl",
-        "owl tag",
+        "tag",
+        "qweb",
+        "literal",
+        "literals",
         "odoo web library",
+        "css",
         "xml",
         "javascript",
         "typescript",
@@ -49,10 +53,20 @@
             {
                 "injectTo": [
                     "source.js",
-                    "source.js.jsx",
-                    "source.jsx",
                     "source.ts",
-                    "source.tsx",
+                    "text.html.basic"
+                ],
+                "scopeName": "inline.lit-owl-css",
+                "path": "./syntaxes/lit-owl-css.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.css": "css",
+                    "source.css": "css"
+                }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.ts",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-xml-owl",
@@ -66,10 +80,7 @@
             {
                 "injectTo": [
                     "source.js",
-                    "source.js.jsx",
-                    "source.jsx",
                     "source.ts",
-                    "source.tsx",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-xml-owl.string.injection",
@@ -81,10 +92,7 @@
             {
                 "injectTo": [
                     "source.js",
-                    "source.js.jsx",
-                    "source.jsx",
                     "source.ts",
-                    "source.tsx",
                     "text.html.basic"
                 ],
                 "scopeName": "inline.lit-xml-owl.style.injection",
