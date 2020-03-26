@@ -53,9 +53,7 @@
 			},
 			"end": "(\\})",
 			"endCaptures": {
-				"0": {
-					"name": "meta.property-value.scss"
-				},
+				
 				"1": {
 					"name": "punctuation.section.function.scss"
 				}

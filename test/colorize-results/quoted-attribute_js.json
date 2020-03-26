@@ -100,18 +100,18 @@
 	},
 	{
 		"c": "${",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.begin.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.begin: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.begin: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.begin: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -122,18 +122,18 @@
 	},
 	{
 		"c": "1",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts constant.numeric.decimal.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb constant.numeric.decimal.ts",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -144,7 +144,7 @@
 	},
 	{
 		"c": "+",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts keyword.operator.arithmetic.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb keyword.operator.arithmetic.ts",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -155,7 +155,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -166,18 +166,18 @@
 	},
 	{
 		"c": "1",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts constant.numeric.decimal.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb constant.numeric.decimal.ts",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -188,13 +188,13 @@
 	},
 	{
 		"c": "}",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.end.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.h2.start.html meta.attribute.unrecognized.title.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.end: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.end: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.end: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.end: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.end: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{
@@ -331,18 +331,18 @@
 	},
 	{
 		"c": "${",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.begin.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.begin: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.begin: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.begin: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -353,18 +353,18 @@
 	},
 	{
 		"c": "1",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts constant.numeric.decimal.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb constant.numeric.decimal.ts",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -375,7 +375,7 @@
 	},
 	{
 		"c": "+",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts keyword.operator.arithmetic.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb keyword.operator.arithmetic.ts",
 		"r": {
 			"dark_plus": "keyword.operator: #D4D4D4",
 			"light_plus": "keyword.operator: #000000",
@@ -386,7 +386,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -397,18 +397,18 @@
 	},
 	{
 		"c": "1",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts constant.numeric.decimal.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb constant.numeric.decimal.ts",
 		"r": {
 			"dark_plus": "constant.numeric: #B5CEA8",
-			"light_plus": "constant.numeric: #09885A",
+			"light_plus": "constant.numeric: #098658",
 			"dark_vs": "constant.numeric: #B5CEA8",
-			"light_vs": "constant.numeric: #09885A",
+			"light_vs": "constant.numeric: #098658",
 			"hc_black": "constant.numeric: #B5CEA8"
 		}
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -419,13 +419,13 @@
 	},
 	{
 		"c": "}",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.end.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.value.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.end: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.end: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.end: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.end: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.end: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{
@@ -485,18 +485,18 @@
 	},
 	{
 		"c": "${",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.begin.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.begin: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.begin: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.begin: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.begin: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{
 		"c": "e",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts variable.parameter.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.arrow.ts variable.parameter.ts",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -507,7 +507,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.arrow.ts",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -518,7 +518,7 @@
 	},
 	{
 		"c": "=>",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts storage.type.function.arrow.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.arrow.ts storage.type.function.arrow.ts",
 		"r": {
 			"dark_plus": "storage.type: #569CD6",
 			"light_plus": "storage.type: #0000FF",
@@ -529,7 +529,7 @@
 	},
 	{
 		"c": " ",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.arrow.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.arrow.ts",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -540,7 +540,7 @@
 	},
 	{
 		"c": "console",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.function-call.ts support.class.console.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.function-call.ts support.class.console.ts",
 		"r": {
 			"dark_plus": "support.class: #4EC9B0",
 			"light_plus": "support.class: #267F99",
@@ -551,7 +551,7 @@
 	},
 	{
 		"c": ".",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.function-call.ts punctuation.accessor.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.function-call.ts punctuation.accessor.ts",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -562,7 +562,7 @@
 	},
 	{
 		"c": "log",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.function-call.ts support.function.console.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.function-call.ts support.function.console.ts",
 		"r": {
 			"dark_plus": "support.function: #DCDCAA",
 			"light_plus": "support.function: #795E26",
@@ -573,7 +573,7 @@
 	},
 	{
 		"c": "(",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.brace.round.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.brace.round.ts",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -584,7 +584,7 @@
 	},
 	{
 		"c": "e",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts variable.other.readwrite.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb variable.other.readwrite.ts",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -595,7 +595,7 @@
 	},
 	{
 		"c": ")",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts meta.embedded.line.ts meta.brace.round.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb meta.embedded.line.ts.css.qweb meta.brace.round.ts",
 		"r": {
 			"dark_plus": "meta.embedded: #D4D4D4",
 			"light_plus": "meta.embedded: #000000",
@@ -606,13 +606,13 @@
 	},
 	{
 		"c": "}",
-		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts punctuation.definition.template-expression.end.ts",
+		"t": "source.js string.js.taggedTemplate meta.embedded.block.xml.qweb meta.tag.structure.input.void.html meta.attribute.unrecognized.@input.html string.quoted.double.html meta.template.expression.ts.qweb punctuation.section.function.scss",
 		"r": {
-			"dark_plus": "punctuation.definition.template-expression.end: #569CD6",
-			"light_plus": "punctuation.definition.template-expression.end: #0000FF",
-			"dark_vs": "punctuation.definition.template-expression.end: #569CD6",
-			"light_vs": "punctuation.definition.template-expression.end: #0000FF",
-			"hc_black": "punctuation.definition.template-expression.end: #569CD6"
+			"dark_plus": "meta.template.expression: #D4D4D4",
+			"light_plus": "meta.template.expression: #000000",
+			"dark_vs": "meta.template.expression: #D4D4D4",
+			"light_vs": "meta.template.expression: #000000",
+			"hc_black": "meta.template.expression: #FFFFFF"
 		}
 	},
 	{

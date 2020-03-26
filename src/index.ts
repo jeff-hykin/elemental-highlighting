@@ -13,19 +13,19 @@ interface SynchronizedConfiguration {
 
 export async function activate(context: vscode.ExtensionContext) {
     console.log('congratulation, your plugin "vscode-lite-xml-OWL" is activating....')
-    // const extension = vscode.extensions.getExtension(typeScriptExtensionId);
-    // if (!extension) {
-    //     return;
-    // }
+    const extension = vscode.extensions.getExtension(typeScriptExtensionId);
+    if (!extension) {
+        return;
+    }
 
-    // await extension.activate();
-    // if (!extension.exports || !extension.exports.getAPI) {
-    //     return;
-    // }
-    // const api = extension.exports.getAPI(0);
-    // if (!api) {
-    //     return;
-    // }
+    await extension.activate();
+    if (!extension.exports || !extension.exports.getAPI) {
+        return;
+    }
+    const api = extension.exports.getAPI(0);
+    if (!api) {
+        return;
+    }
 
     // vscode.workspace.onDidChangeConfiguration(e => {
     //     if (e.affectsConfiguration(configurationSection)) {

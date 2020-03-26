@@ -1,9 +1,9 @@
 {
     "name": "lit-xml-owl",
     "private": true,
-    "displayName": "lit-xml-owl",
+    "displayName": "Odoo QWeb Owl",
     "description": "Syntax highlighting and IntelliSense for xml inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.11.1",
+    "version": "0.3.0",
     "publisher": "x2nie",
     "icon": "docs/logo.png",
     "license": "MIT",
@@ -39,7 +39,7 @@
         "template"
     ],
     "engines": {
-        "vscode": "^1.29.0"
+        "vscode": "^1.43.0"
     },
     "activationEvents": [
         "onLanguage:javascript",
@@ -53,8 +53,7 @@
             {
                 "injectTo": [
                     "source.js",
-                    "source.ts",
-                    "text.html.basic"
+                    "source.ts"
                 ],
                 "scopeName": "inline.lit-owl-css",
                 "path": "./syntaxes/lit-owl-css.json",
@@ -66,68 +65,17 @@
             {
                 "injectTo": [
                     "source.js",
-                    "source.ts",
-                    "text.html.basic"
+                    "source.ts"
                 ],
-                "scopeName": "inline.lit-xml-owl",
-                "path": "./syntaxes/lit-xml-owl.json",
-                "embeddedLanguages": {
-                    "meta.embedded.block.xml.qweb": "html",
-                    "meta.embedded.block.css": "css",
-                    "source.css": "css"
-                }
-            },
-            {
-                "injectTo": [
-                    "source.js",
-                    "source.ts",
-                    "text.html.basic"
-                ],
-                "scopeName": "inline.lit-xml-owl.qweb",
+                "scopeName": "inline.lit-owl-qweb",
                 "path": "./syntaxes/lit-owl-qweb.json",
                 "embeddedLanguages": {
-                    "meta.embedded.line.ts.qweb": "typescript"
+                    "meta.embedded.block.xml.qweb": "html",
+                    "meta.embedded.line.ts.qweb": "typescript",
+                    "meta.embedded.line.ts.css.qweb": "typescript",
+                    "source.ts": "ts"
                 }
-            },
-            {
-                "injectTo": [
-                    "source.js",
-                    "source.ts",
-                    "text.html.basic"
-                ],
-                "scopeName": "inline.lit-xml-owl.string.injection",
-                "path": "./syntaxes/lit-xml-owl-string-injection.json",
-                "embeddedLanguages": {
-                    "meta.template.expression.ts": "typescript"
-                }
-            },
-            {
-                "injectTo": [
-                    "source.js",
-                    "source.ts",
-                    "text.html.basic"
-                ],
-                "scopeName": "inline.lit-xml-owl.style.injection",
-                "path": "./syntaxes/lit-xml-owl-style-injection.json",
-                "embeddedLanguages": {
-                    "meta.template.expression.ts": "typescript"
-                }
-            },
-            {
-                "injectTo": [
-                    "source.js",
-                    "source.js.jsx",
-                    "source.jsx",
-                    "source.ts",
-                    "source.tsx",
-                    "text.html.basic"
-                ],
-                "scopeName": "inline.lit-xml-owl-svg",
-                "path": "./syntaxes/lit-xml-owl-svg.json",
-                "embeddedLanguages": {
-                    "meta.embedded.block.svg": "xml"
-                }
-            }
+            }            
         ]
     },
     "scripts": {
@@ -139,7 +87,7 @@
     },
     "devDependencies": {
         "@types/node": "^12.7.5",
-        "@types/vscode": "1.43.1",
+        "@types/vscode": "1.43.0",
         "glob": "^7.1.4",
         "mocha": "^6.2.0",
         "typescript": "^3.6.3",
