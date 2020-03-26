@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "Odoo QWeb Owl",
     "description": "Syntax highlighting and IntelliSense for xml inside of JavaScript and TypeScript tagged template strings",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "publisher": "x2nie",
     "icon": "docs/logo.png",
     "license": "MIT",
