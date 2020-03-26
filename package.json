@@ -81,8 +81,7 @@
                 "injectTo": [
                     "source.js",
                     "source.ts",
-                    "text.html.basic",
-                    "meta.embedded.block.xml.qweb"
+                    "text.html.basic"
                 ],
                 "scopeName": "inline.lit-xml-owl.qweb",
                 "path": "./syntaxes/lit-owl-qweb.json",
