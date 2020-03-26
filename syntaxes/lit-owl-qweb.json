@@ -1,0 +1,28 @@
+{
+	"fileTypes": [],
+	"injectionSelector": "L:meta.embedded.block.xml.qweb meta.tag",
+	"patterns": [
+		{
+            "name": "meta.template.expression.ts.qweb",
+            "begin": "(\\{\\{)",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.template-expression.begin.ts.qweb"
+                }
+            },
+            "end": "(\\}\\})",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.template-expression.end.ts.qweb"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "source.ts#expression"
+                }
+            ],
+            "contentName": "meta.embedded.line.ts.qweb"
+		}
+	],
+	"scopeName": "inline.lit-xml-owl.qweb"
+}
