@@ -12,10 +12,10 @@
         "theme": "light"
     },
     "repository": {
-        "url": "https://github.com/mjbvz/vscode-lit-xml-owl.git"
+        "url": "https://github.com/x2nie/vscode-lit-xml-owl.git"
     },
     "bugs": {
-        "url": "https://github.com/mjbvz/vscode-lit-xml-owl/issues"
+        "url": "https://github.com/x2nie/vscode-lit-xml-owl/issues"
     },
     "categories": [
         "Programming Languages", 
@@ -72,9 +72,22 @@
                 "scopeName": "inline.lit-xml-owl",
                 "path": "./syntaxes/lit-xml-owl.json",
                 "embeddedLanguages": {
-                    "meta.embedded.block.html": "html",
+                    "meta.embedded.block.xml.qweb": "html",
                     "meta.embedded.block.css": "css",
                     "source.css": "css"
+                }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.ts",
+                    "text.html.basic",
+                    "meta.embedded.block.xml.qweb"
+                ],
+                "scopeName": "inline.lit-xml-owl.qweb",
+                "path": "./syntaxes/lit-owl-qweb.json",
+                "embeddedLanguages": {
+                    "meta.embedded.line.ts.qweb": "typescript"
                 }
             },
             {

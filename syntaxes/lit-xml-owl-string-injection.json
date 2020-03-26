@@ -1,6 +1,6 @@
 {
 	"fileTypes": [],
-	"injectionSelector": "L:meta.embedded.block.html meta.tag",
+	"injectionSelector": "L:meta.embedded.block.xml.qweb meta.tag",
 	"patterns": [
 		{
 			"include": "source.ts#template-substitution-element"

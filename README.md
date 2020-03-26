@@ -103,3 +103,8 @@ The plugin formats html code by default. You can disable this by setting `"lit-x
 ```json
 "lit-xml-owl.format.enabled": false
 ```
+
+## Credit
+- This plugin is a direct fork of awesome `lit-html` 
+- TextMate Grammar: https://flight-manual.atom.io/hacking-atom/sections/creating-a-legacy-textmate-grammar/
+- Writing a TextMate Grammar: http://www.apeth.com/nonblog/stories/textmatebundle.html
