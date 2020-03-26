@@ -1,4 +1,4 @@
-html`
+xml`
     <a>fdsafdsa</a>
     <style>
         a {
