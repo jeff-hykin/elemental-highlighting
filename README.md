@@ -2,20 +2,17 @@
 
 Adds xml/html syntax highlighting and language support inside of JavaScript and TypeScript tagged template strings, such as used in [owl](https://github.com/odoo/owl/blob/master/doc/reference/component.md).
 
-![](https://github.com/x2nie/vscode-lit-xml-owl/raw/master/docs/example.gif)
+![](docs/xml-in-action.png)
 
 
 ## Features
 
-- Syntax highlighting of inline xml blocks.
+- Syntax highlighting of inline xml and css blocks in js and ts.
 - IntelliSense for html tags and attributes.
 - Emmet abbreviation ready.
-- ~~Quick info hovers on tags~~.
-- Formatting support.
-- ~~Auto closing tags~~.
-- ~~Folding xml/html~~.
-- CSS completions in style blocks.
-- Works with literal html strings that contain placeholders.
+- Folding xml/html.
+
+
 
 ## Usage
 The `lit-xml-owl` extension adds highlighting and IntelliSense for lit-xml-owl template strings in JavaScript and TypeScript. It works out of the box when you use VS Code's built-in version of TypeScript.
