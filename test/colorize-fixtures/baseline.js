@@ -4,13 +4,13 @@
     a.xml`<a>`;
     a.a.xml`<a>`;
     owl.xml/*html*/`<a>`;
-    owl.xml/* html */`<a>`;
+    owl.xml/* html */`<a t-attf-class="link {{index==1? 'second':'other'}} ">`;
     const render = () => xml`
-<ul>
-    ${repeat(items, (i) => i.id, (i, index) => xml`
-    <li>${index}: ${i.name}</li>`)}
-</ul>
-`; ƒ
+        <ul>
+            ${repeat(items, (i) => i.id, (i, index) => xml`
+            <li>${index}: ${i.name}</li>`)}
+        </ul>
+    `; ƒ
 
     const appTemplate = xml/*html*/`
     <div class="app">
@@ -73,7 +73,7 @@
     css/* less */`body{ padding: 0; }`;
     css`
         /* css comment is here */
-        body{ padding: 0; }`;
+        body{ color: red; }`;
 }
 
 { // Should not highlight css

@@ -1,8 +1,8 @@
-[![](https://vsmarketplacebadge.apphb.com/version/bierner.lit-xml-owl.svg)](https://marketplace.visualstudio.com/items?itemName=bierner.lit-xml-owl) [![Build Status](https://travis-ci.org/mjbvz/vscode-lit-xml-owl.svg?branch=master)](https://travis-ci.org/mjbvz/vscode-lit-xml-owl)
+[![](https://vsmarketplacebadge.apphb.com/version/x2nie.lit-xml-owl.svg)](https://marketplace.visualstudio.com/items?itemName=x2nie.lit-xml-owl) [![Build Status](https://travis-ci.org/x2nie/vscode-lit-xml-owl.svg?branch=master)](https://travis-ci.org/x2nie/vscode-lit-xml-owl)
 
 Adds xml/html syntax highlighting and language support inside of JavaScript and TypeScript tagged template strings, such as used in [owl](https://github.com/odoo/owl/blob/master/doc/reference/component.md).
 
-![](https://github.com/mjbvz/vscode-lit-xml-owl/raw/master/docs/example.gif)
+![](https://github.com/x2nie/vscode-lit-xml-owl/raw/master/docs/example.gif)
 
 
 ## Features
