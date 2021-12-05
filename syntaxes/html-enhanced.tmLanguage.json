@@ -1790,6 +1790,55 @@
                     ]
                 },
                 {
+                    "begin": "(?i)(</)(?=\\$\\{)",
+                    "beginCaptures": {
+                        "1": {
+                            "name": "punctuation.definition.tag.begin.js"
+                        }
+                    },
+                    "end": ">",
+                    "endCaptures": {
+                        "0": {
+                            "name": "punctuation.definition.tag.end.js"
+                        }
+                    },
+                    "name": "meta.tag.structure.$2.end.html",
+                    "patterns": [
+                        {
+                            "begin": "\\$\\{",
+                            "beginCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.template-expression.begin punctuation.definition.tag.begin.js"
+                                }
+                            },
+                            "end": "\\}",
+                            "endCaptures": {
+                                "0": {
+                                    "name": "punctuation.definition.template-expression.end punctuation.definition.tag.end.js"
+                                }
+                            },
+                            "name": "meta.custom.tag.html entity.name.tag.js",
+                            "patterns": [
+                                {
+                                    "include": "source.js"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "match": "(</)(>)",
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.tag.begin.js"
+                        },
+                        "2": {
+                            "name": "punctuation.definition.tag.end.js"
+                        }
+                    },
+                    "name": "meta.tag.structure.anonymous.end.html"
+                },
+                {
                     "begin": "(^[ \\t]+)?(?=<(?i:style)\\b(?!-))",
                     "beginCaptures": {
                         "1": {

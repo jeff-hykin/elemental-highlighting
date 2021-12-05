@@ -44,7 +44,7 @@
 			]
 		},
         "substitution": {
-			"begin": "(?x)(?<!<)(\\$\\{)",
+			"begin": "(?x)(?<!<|</)(\\$\\{)",
 			"beginCaptures": {
                 "0": {
                     "name":"punctuation.definition.template-expression.begin.js"
