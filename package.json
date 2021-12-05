@@ -1,24 +1,89 @@
 {
-  "name": "elemental-highlighting",
-  "description": "",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jeff-hykin/elemental-highlighting.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jeff-hykin/elemental-highlighting/issues"
-  },
-  "homepage": "https://github.com/jeff-hykin/elemental-highlighting#readme"
+    "name": "elemental-highlighting",
+    "description": "",
+    "version": "0.0.1",
+    "main": "./out/index.js",
+    "directories": {
+        "doc": "docs",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jeff-hykin/elemental-highlighting.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jeff-hykin/elemental-highlighting/issues"
+    },
+    "homepage": "https://github.com/jeff-hykin/elemental-highlighting#readme",
+    "categories": [
+        "Programming Languages", 
+        "Formatters", 
+        "Other"
+    ],
+    "keywords": [
+        "tag",
+        "literal",
+        "literals",
+        "css",
+        "xml",
+        "javascript",
+        "html",
+        "template"
+    ],
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "activationEvents": [
+        "onLanguage:javascript",
+        "onLanguage:javascriptreact",
+        "onLanguage:typescript",
+        "onLanguage:typescriptreact"
+    ],
+    "contributes": {        
+        "grammars": [
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.ts"
+                ],
+                "scopeName": "inline.lit-owl-css",
+                "path": "./syntaxes/lit-owl-css.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.css": "css",
+                    "source.css": "css"
+                }
+            },
+            {
+                "injectTo": [
+                    "source.js",
+                    "source.ts"
+                ],
+                "scopeName": "inline.lit-owl-qweb",
+                "path": "./syntaxes/lit-owl-qweb.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.xml.qweb": "html",
+                    "meta.embedded.line.ts.qweb": "typescript",
+                    "meta.embedded.line.ts.css.qweb": "typescript",
+                    "source.ts": "ts"
+                }
+            }            
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -p ./",
+        "watch": "tsc -w -p ./",
+        "VSIX": "vsce package",
+        "test": "node ./out/test"
+    },
+    "devDependencies": {
+        "@types/node": "^12.7.5",
+        "@types/vscode": "1.43.0",
+        "glob": "^7.1.4",
+        "mocha": "^6.2.0",
+        "typescript": "^3.6.3",
+        "vscode-test": "^1.2.0"
+    }
 }
