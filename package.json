@@ -1,6 +1,8 @@
 {
     "name": "elemental-highlighting",
     "description": "",
+    "publisher": "jeff-hykin",
+    "author": "",
     "version": "0.0.1",
     "main": "./out/index.js",
     "directories": {
@@ -11,15 +13,14 @@
         "type": "git",
         "url": "git+https://github.com/jeff-hykin/elemental-highlighting.git"
     },
-    "author": "",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/jeff-hykin/elemental-highlighting/issues"
     },
     "homepage": "https://github.com/jeff-hykin/elemental-highlighting#readme",
     "categories": [
-        "Programming Languages", 
-        "Formatters", 
+        "Programming Languages",
+        "Formatters",
         "Other"
     ],
     "keywords": [
@@ -41,8 +42,21 @@
         "onLanguage:typescript",
         "onLanguage:typescriptreact"
     ],
-    "contributes": {        
+    "contributes": {
         "grammars": [
+            {
+                "scopeName": "text.html.enhanced",
+                "path": "./syntaxes/html-enhanced.tmLanguage.json",
+                "embeddedLanguages": {
+                    "source.css": "css",
+                    "source.js": "javascript",
+                    "source.python": "python",
+                    "source.smarty": "smarty"
+                },
+                "tokenTypes": {
+                    "meta.tag string.quoted": "other"
+                }
+            },
             {
                 "injectTo": [
                     "source.js",
@@ -68,7 +82,7 @@
                     "meta.embedded.line.ts.css.qweb": "typescript",
                     "source.ts": "ts"
                 }
-            }            
+            }
         ]
     },
     "scripts": {

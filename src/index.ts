@@ -12,7 +12,6 @@ interface SynchronizedConfiguration {
 }
 
 export async function activate(context: vscode.ExtensionContext) {
-    console.log('congratulation, your plugin "vscode-lite-xml-OWL" is activating....')
     const extension = vscode.extensions.getExtension(typeScriptExtensionId);
     if (!extension) {
         return;
@@ -38,7 +37,6 @@ export async function activate(context: vscode.ExtensionContext) {
 
 function synchronizeConfiguration(api: any) {
     api.configurePlugin(pluginId, getConfiguration());
-    console.log('congratulation, your plugin "vscode-lite-xml-OWL" is activated.')
 }
 
 function getConfiguration(): SynchronizedConfiguration {

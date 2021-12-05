@@ -12,7 +12,7 @@
     "repository": {
         "css-tag": {
 			"name": "string.js.css.taggedTemplate",
-			"contentName": "meta.embedded.block.css",
+			"contentName": "source.css",
 			"begin": "(?x)(\\b(?:\\w+\\.)*(?:css))(\\/\\*\\s*(css|scss|less)\\s*\\*\\/)*(`)",
 			"beginCaptures": {
 				"1": {
@@ -44,26 +44,24 @@
 			]
 		},
         "substitution": {
-			"name": "meta.template.expression.ts.qweb",
-			"begin": "(?x)(\\$\\{)",
+			"begin": "(?x)(?<!<)(\\$\\{)",
 			"beginCaptures": {
-				"1": {
-					"name": "punctuation.section.function.scss"
+                "0": {
+                    "name":"punctuation.definition.template-expression.begin.js"
                 }
 			},
 			"end": "(\\})",
 			"endCaptures": {
-				
-				"1": {
-					"name": "punctuation.section.function.scss"
-				}
+                "0": {
+                    "name":"punctuation.definition.template-expression.begin.js"
+                }
 			},
 			"patterns": [
 				{
-					"include": "source.ts#expression"
+					"include": "source.js"
 				}
 			],
-			"contentName": "meta.embedded.line.ts.css.qweb"
+			"contentName": "meta.embedded.js"
 		}
 	},
 	"scopeName": "inline.lit-owl-css"
