@@ -1,0 +1,72 @@
+{
+	"fileTypes": [],
+    "injectionSelector": "L:source.js -comment -(string -meta.embedded), L:source.ts -comment -(string -meta.embedded)",
+    "patterns": [
+        {
+            "include": "#xml-tag"
+        },
+        {
+            "include": "#qweb-xml-substitution"
+        }
+    ],
+	"repository": {
+        "xml-tag": {
+			"name": "string.js.taggedTemplate",
+			"contentName": "meta.embedded.block.xml.qweb",
+			"begin": "(?x)(\\b(?:\\w+\\.)*(?:xml))(\\/\\*\\s*html\\s*\\*\\/)*(`)",
+			"beginCaptures": {
+				"1": {
+					"name": "entity.name.function.tagged-template.js"
+				},
+				"2": {
+					"name": "comment.block.js"
+				},
+				"3": {
+					"name": "punctuation.definition.string.template.begin.js"
+				}
+			},
+			"end": "(`)",
+			"endCaptures": {
+				"0": {
+					"name": "string.js"
+				},
+				"1": {
+					"name": "punctuation.definition.string.template.end.js"
+				}
+			},
+			"patterns": [
+				{
+					"include": "#qweb-xml-subtitution"
+				},
+				{
+					"include": "text.html.basic"
+				}
+			]
+		},
+		"qweb-xml-substitution": {
+            "name": "meta.template.expression.ts.xml.qweb",
+            "begin": "(?x)(\\{\\{)",
+            "beginCaptures": {
+                "1": {
+                    "name": "punctuation.definition.template-expression.begin.ts.qweb"
+                }
+            },
+            "end": "(\\}\\})",
+            "endCaptures": {
+                "0": {
+					"name": "string.quoted.double.html"
+				},
+                "1": {
+                    "name": "punctuation.definition.template-expression.end.ts.qweb"
+                }
+            },
+            "patterns": [
+                {
+                    "include": "source.ts#expression"
+                }
+            ],
+            "contentName": "meta.embedded.line.ts"
+		}
+	},
+	"scopeName": "inline.lit-owl-qweb"
+}
