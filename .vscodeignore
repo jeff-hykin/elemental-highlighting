@@ -1,6 +1,9 @@
 .vscode/
 .vscode-test/
 test/
+settings/
+commands/
+.git/
 out/test/**
 
 **/*.map
